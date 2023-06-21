@@ -3,7 +3,7 @@ import './App.css'
 import io from 'socket.io-client';
 import Chat from './Chat';
 
-const socket = io('https://192.168.1.9:4000');
+const socket = io('http://192.168.1.9:4000');
 
 function App() {
  
